@@ -31,6 +31,7 @@ def average_price_by_category(purchases):
     result = {k: sum(v)/len(v) for k, v in result.items()}
     return f"Средняя цена по категориям: {result}"
 
+
 def most_frequent_category(purchases):
     result = {}
     for purchase in purchases:
